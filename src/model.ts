@@ -1,3 +1,5 @@
+import React, { useState, useEffect } from 'react';
+
 export default class AbstractModel
 {
     private static instances = new Set<AbstractModel>();
